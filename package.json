@@ -4,8 +4,7 @@
   "description": "Solution to backend challenge proposed for 8woc applicants",
   "main": "index.js",
   "scripts": {
-    "test": "test",
-    "dev" : "nodemon server.js"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +22,6 @@
     "mongodb": "^2.2.32"
   },
   "devDependencies": {
-    "nodeman": "^1.1.2"
+    "nodemon": "^1.12.1"
   }
 }
