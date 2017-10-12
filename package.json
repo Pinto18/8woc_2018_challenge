@@ -1,0 +1,27 @@
+{
+  "name": "backend_challenge",
+  "version": "1.0.0",
+  "description": "Solution to backend challenge proposed for 8woc applicants",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pinto18/8woc_2018_challenge.git"
+  },
+  "author": "Nicholas DiPinto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pinto18/8woc_2018_challenge/issues"
+  },
+  "homepage": "https://github.com/Pinto18/8woc_2018_challenge#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.32"
+  },
+  "devDependencies": {
+    "nodeman": "^1.1.2"
+  }
+}
