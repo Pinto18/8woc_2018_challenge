@@ -8,14 +8,15 @@ const port        = 8000;
 
 app.use(bodyParser.urlencoded({extended: true}));
 
-MongoClient.connect(db.url, (error, database) => {
-						   if(error) return console.log(error);
-						   require('./app/routes')(app, database);
-						   app.listen( port,
-            						       () => {
-                     						       console.log('We are live on ' + port);
-                  						     }
-          				                     );
-						 }
+MongoClient.connect(db.url, (error, database) =>
+                               {
+                                  if(error) return console.log(error);
+                                  require('./app/routes')(app, database);
+				  app.listen( port,
+            				      () => {
+                     				       console.log('We are live on ' + port);
+                  				    }
+          				    );
+			       }
 		   );
 
